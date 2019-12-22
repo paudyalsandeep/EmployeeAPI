@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Employee No"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:id="@+id/etEmployeeNumber"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="20dp"
+        android:text="Search"
+        android:textSize="30dp"
+        android:id="@+id/btnSrch"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee No"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:id="@+id/etEmpNum"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:id="@+id/etEmpSalary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:id="@+id/etEnterSave"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="20dp"
+        android:text="Update"
+        android:textSize="30dp"
+        android:id="@+id/btnUpdate"/>
+
+</LinearLayout>
